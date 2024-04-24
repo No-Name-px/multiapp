@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "jsx": "react-jsx",
+        "composite": true,
+        "module": "esnext",
+        "rootDir": ".",
+        "moduleResolution": "bundler",
+        "baseUrl": ".",
+        "outDir": "./dist",
+        "strict": true,
+        "skipLibCheck": true,
+        "paths": {
+            "@components/*": ["src/components/*"],
+            "@assets/*": ["src/assets/*"],
+            "@app/*": ["src/app/*"],
+            "@entities/*": ["src/entities/*"],
+            "@features/*": ["src/features/*"],
+            "@pages/*": ["src/pages/*"],
+            "@shared/*": ["src/shared/*"],
+            "@widgets/*": ["src/widgets/*"],
+            "@/*": ["src/*"]
+        }
+    },
+    "include": ["src"]
+}
